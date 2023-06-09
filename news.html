@@ -24,7 +24,7 @@
         <div class="container-fluid">
             <div class="navbar-container">
                 <div class="collapse navbar-collapse d-block">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="news.html"
                         <i style="font-size:xx-large" class="fa fa-sharp fa-solid fa-globe"></i>
                         <span>News</span>
                     </a>
@@ -168,14 +168,12 @@
                 <div  class="card overflow-hidden">
                     <div  class="row">
                         <div  class="col-sm-6 col-12">
-                            <div class="card-img">
-                                    <div >
-                                        <div ><img  src="img/prince-harry-and-meghan-markle-visit-birmingham.jpg" alt="First slide"
+                            <div class="card-img"><img  src="img/prince-harry-and-meghan-markle-visit-birmingham.jpg" alt="First slide"
                                                 class="d-block w-100 ng-star-inserted"><!----></div>
                                   
                                 
-                                    </div>
-                              </div>
+                                  
+                             
                         </div>
                         <div class="col-sm-6 col-12 d-flex align-items-center">
                             <div class="card-body">
@@ -229,33 +227,7 @@
                     <p class="text-center text-muted">© 2023 Company, Inc</p>
                 </footer>
             </div>
-            <script>
-
-                const links = document.querySelectorAll('#personal-info .nav-link');
-                const divs = document.querySelectorAll('#personal-info .row');
-
-                if (links.length) {
-                    links.forEach((link) => {
-                        link.addEventListener('click', (e) => {
-                            links.forEach((link) => {
-
-                                link.classList.remove('active');
-                                const info = document.querySelectorAll('#info-div');
-
-                            });
-                            divs.forEach((div) => {
-                                div.style.display = 'none';
-
-                            });
-                            e.preventDefault();
-                            var linkedDiv = link.hash;
-                            const shownDiv = document.querySelectorAll(linkedDiv);
-                            link.classList.add('active');
-                            shownDiv[0].style.display = 'block';
-                        });
-                    });
-                };
-            </script>
+          
 </body>
 
 
