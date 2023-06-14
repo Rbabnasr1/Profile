@@ -1,0 +1,115 @@
+* {
+font-family: Montserrat, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+}
+
+body {
+background-color: #f7f3f3;
+color: balck;
+
+}
+.post{
+	text-align: left;
+}
+.fa{
+color:#7e0b73; font-size: xx-large;
+
+}
+
+.fa :hover {
+color:#ae0a9e; font-size: xx-large;
+
+}
+
+.post-action{
+color: #7e0b73;
+text-decoration: none;
+}
+.post-action :hover, .post-action :active{
+color: #ae0a9e;
+
+}
+
+
+.post-action p {
+margin-left: 4px;
+color: #7e0b73;
+}
+
+.btn-post{background-color: #7e0b73;
+color: white;
+}
+
+.btn-post:hover{
+background-color: #ae0a9e;
+color: white;
+}
+
+.btn-outline-post{
+color: #7e0b73;
+border:1px solid #7e0b73
+}
+.btn-outline-post:hover{
+color: #ae0a9e;
+border:1px solid #ae0a9e;
+}
+.card .fa{ font-size: large;}
+
+
+ul
+{list-style: none;}
+.navbar-brand span{
+color:#999696;
+}
+
+.comment-form {
+background: #f0eaf0 !important;
+color: purple;
+text-align: start;
+display: inline-grid;
+
+}
+
+.comment-block{
+margin-bottom: 10px;text-align: start;
+}
+
+.comment-date{
+color:gray;justify-self: right;
+}
+
+.navbar-nav {
+flex-direction: row;
+}
+
+.card-header,
+.fst-nav {
+background-image: url("../img/white-gradient-background-image_754036.jpg");
+color: #af3fa6;
+font-size: x-large;
+background-size: cover;
+font-weight: bold;
+}
+.card-header,
+.nav-item {
+padding-left: 10px
+}
+
+
+.nav-item :hover{
+color: #ae0a9e;
+}
+.container {
+
+max-width: 59rem;
+
+}
+.con-tent {
+text-align: center;
+background-color: #f7f3f3;
+
+
+}
+.div-sp{
+background-color: #7e0b73;
+height:20px
+}
